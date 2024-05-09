@@ -1,0 +1,76 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "hi", "help me"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [" "],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "help", "information"],
+         "responses": ["I can guide you through providing college information, Departments in college, Number of intakes in each department", "I can guide you through providing college information, Departments in college, Number of intakes in each department, fees, etc"],
+         "context": [""]
+        },
+        {"tag": "information",
+         "patterns": ["Tell me about college", "tell me about itm", "About", "Give me information about college", "college", "how the college is?" , "what is the name of the college", "name of college"],
+         "responses": ["The Institute of Technology and Management (ITM, GIDA, Gorakhpur) established in July 2001 under the patronage of Shree Krishna Educational Society run by a group of socially oriented professionals and entrepreneurs. The Institute is located on the Gorakhpur-Lucknow National Highways at a distance of about 12 kms from Gorakhpur city which is well connected by road and rail and limited airways with all major cities of India ."],
+         "context": [""]
+        },
+        {"tag": "courses",
+         "patterns": ["Courses", "Courses offer by college", "What are the courses offered by the collge", "I want to know the courses available in the college", "list the courses" ],
+         "responses": ["Initially, B.Tech in four branches namely ECE ,CSE, IT, & ME and MCA courses were started. Later on, the Institute extended its scope of teaching by opening Bachelor of Pharmacy, Master of Business Administration and B.TECH in Civil Engineering. Listing the courses -> \n 1. B. Tech(CSE&IT, ME, ECE, Civil) \n 2. MBA ]\n 3. BBA \n 4. B. Pharma  \n 5. D. Pharma \n 6. BCA \n 7. Diploma"],
+         "context": [""]
+        },
+        {"tag": "Location",
+         "patterns": ["Location of college", "address of college", "place of college", "contact of college", "How can I contact to the college?" ],
+         "responses": ["The address of the college is Sector 7, GIDA, Gorakhpur - 273209 and you can contact on +91-8081209500 or director@itmgkp.edu.in"],
+         "context": [""]
+        },
+        {"tag": "placement",
+         "patterns": ["placement record of college", "Which company comes in college", "Placement", "How is the placement in the college"],
+         "responses": ["Placements in 30+ companies in academic session 2019-20 More than 95% Students in Diploma & 90% students in B. Tech. course placed in academic session 2018-19, 100% placements in some of branches in Polytechnic & B. Tech. courses.", "Placements in Wipro Ltd., Tata Consultancy Service (TCS), Expedien eSolutions, Recom Infotech Pvt. Ltd., Focus Academy of Career Enhancement, Technosys Services Pvt Ltd, Shriram Transport Finance Company Ltd., O Source Pvt.Ltd, Source Soft Solutions, Macleods Pharmaceuticals Ltd., Pacific BPO Pvt. Ltd., Advik Digital Solutions, VK Soft Pvt. Ltd., Pie Infocom, Genpact, uCertify, Chreso Services Pvt. Ltd., Net2Source Inc., C-Core India Technosolution Pvt. Ltd."],
+         "context": [""]
+        },
+        {"tag": "seats",
+         "patterns": ["seats in B. Tech", "seats in computer science and engineering", "seats in mba", "seats", "intakes" ],
+         "responses": ["We accepts 60 students for admission"],
+         "context": [""]
+        },
+        {"tag": "fest",
+         "patterns": ["Fest in college", "Function in college", "What is parampara", "Tell me about fest", "Event in college", "tell me about parampara"],
+         "responses": ["We organize Parampara which is Cultural-Techno Fest imparting students with rigorous energy to unite, compete as well as enjoy the kudos of ITM. EDM Nights, Sports, Cultural events & lots of more."],
+         "context": [""]
+        },
+        {"tag": "fee",
+         "patterns": ["What is fee structure in college", "fees of b.tech", "fees of college", "fees", "fees of computer science and engineering", "fees of cse"],
+         "responses": ["Kindly connect to the college admission cell for updated fees but I can give you some approximate information \n B.Tech Fees is 83,800 \n MBA Fees is 88,800 \n B.Pharma Fees is 63,800 \n D.Pharma Fees is 53,800 \n BCA Fees is 53,800"],
+         "context": [""]
+        },
+
+        {"tag": "Director",
+         "patterns": ["Who is the director", "director of college", "director name", "director", "director vision"],
+         "responses": ["The Director of Institute of Technology and Management, GIDA is Dr. N. K. Singh \n His thoughts are : \n  It is my privilege to present before you the Institute of Technology and Management, GIDA, Gorakhpur, the institute which has attained the insignia of Professional and Proficient with a Difference. Over the years, the ITM has evolved to reach and hold a unique position of pride in the technical education system in eastern UP, the area which had \n been so far considered to be on the lower rung of socio-economic development."],
+         "context": [""]
+        },
+
+        {"tag": "Self",
+         "patterns": ["Tell me about yourself","tell me about your self", "what is your name", "your name", "who are you", "who develop or created or build or made you"],
+         "responses": ["Hello my name is Alex and the developer who build me are: \n Shivani Yadav \n Saumya Srivastava \n  Vishwarya Viswakarma"],
+         "context": [""]
+        }
+
+]
+}
